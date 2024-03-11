@@ -30,11 +30,11 @@ def mj():
     return(render_template("mj.html"))
 
 @app.route("/music",methods=["GET","POST"])
-def palm():
+def music():
     return(render_template("music.html"))
 
 @app.route("/video",methods=["GET","POST"])
-def mj():
+def video():
     return(render_template("video.html"))
 
 @app.route("/result_palm",methods=["GET","POST"])
